@@ -1,0 +1,35 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format follows **Keep a Changelog**.
+
+This project adheres to **Semantic Versioning**.
+
+---
+
+## [0.1.0] - 2026-07-22
+
+### Added
+
+- Initial repository structure.
+- Apache 2.0 license.
+- Initial README.
+- Project vision.
+- Initial engineering roadmap.
+- Planned modular architecture.
+- Definition of the Chief Architect concept.
+- Definition of specialized Skills.
+- Initial repository organization.
+
+### Planned
+
+- Chief Architect Agent
+- Architecture Skill
+- Documentation Skill
+- Improve Skill
+- Review Skill
+- Draw.io Integration
+- Project State
+- ADR templates
+- Documentation templates
