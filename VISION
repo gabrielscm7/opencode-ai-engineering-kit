@@ -1,0 +1,295 @@
+# VISION
+
+> **Building the next generation of AI-assisted software engineering.**
+
+---
+
+# Why this project exists
+
+Artificial Intelligence has dramatically changed how software is developed.
+
+Most AI tools, however, still behave as generic assistants that generate code from isolated prompts. While this approach can improve productivity, it often introduces new problems:
+
+* Lack of architectural consistency
+* Context fragmentation
+* Hallucinated implementations
+* Documentation that quickly becomes outdated
+* Poor long-term maintainability
+* Large refactorings with high regression risk
+* Loss of engineering knowledge over time
+
+The goal of **OpenCode AI Engineering Kit** is to address these challenges.
+
+Instead of treating AI as a code generator, this framework treats AI as a multidisciplinary engineering team operating under architectural governance.
+
+---
+
+# Vision Statement
+
+Create an extensible framework that enables AI systems to participate in the entire software engineering lifecycle while preserving architectural integrity, engineering quality, documentation consistency and long-term maintainability.
+
+The framework should make AI capable of understanding, documenting, improving and evolving complex software systems with the same discipline expected from experienced engineering teams.
+
+---
+
+# Long-Term Mission
+
+Build a reusable engineering platform where specialized AI agents collaborate through clearly defined responsibilities.
+
+Every decision should be:
+
+* explainable
+* reproducible
+* reviewable
+* documented
+* traceable
+
+The framework should evolve from being a collection of prompts into an engineering operating system for AI-assisted software development.
+
+---
+
+# Engineering Philosophy
+
+Software architecture is the primary source of truth.
+
+Documentation is not a by-product.
+
+Documentation is part of the software.
+
+Code, diagrams, architecture decisions and engineering knowledge must evolve together.
+
+Every architectural modification should leave the project in a better state than before.
+
+Small continuous improvements are preferred over disruptive redesigns.
+
+Engineering quality always takes priority over implementation speed.
+
+---
+
+# Human-Centered AI
+
+Artificial Intelligence should amplify engineering capabilities rather than replace engineering judgment.
+
+Humans remain responsible for:
+
+* defining objectives
+* approving architectural changes
+* validating business decisions
+* reviewing critical implementations
+* determining acceptable risks
+
+AI is responsible for:
+
+* analysis
+* documentation
+* implementation support
+* architecture verification
+* continuous auditing
+* technical recommendations
+
+The framework promotes Human-in-the-Loop engineering.
+
+---
+
+# Core Principles
+
+## Architecture First
+
+Every implementation begins with understanding the architecture.
+
+The framework never encourages modifying code before understanding how the system works.
+
+---
+
+## Documentation First
+
+Documentation is continuously updated.
+
+There is no "documentation phase".
+
+Documentation evolves together with the software.
+
+---
+
+## Living Architecture
+
+Architecture diagrams are living artifacts.
+
+Every structural modification updates:
+
+* architecture documentation
+* Draw.io diagrams
+* Architecture Decision Records (ADR)
+* project state
+
+No divergence between documentation and implementation should exist.
+
+---
+
+## Small Iterations
+
+Large refactorings increase risk.
+
+The preferred workflow consists of:
+
+* analyze
+* plan
+* implement
+* validate
+* document
+* repeat
+
+Every iteration should produce measurable improvements.
+
+---
+
+## Separation of Responsibilities
+
+Each AI component should have a single responsibility.
+
+Examples include:
+
+* orchestration
+* architecture analysis
+* documentation
+* performance
+* security
+* review
+* testing
+
+No single component should perform every task.
+
+---
+
+## Continuous Learning
+
+Every execution improves the project's knowledge base.
+
+The framework should preserve engineering knowledge through:
+
+* Architecture Decision Records
+* documentation
+* project state
+* diagrams
+* technical debt tracking
+* engineering reports
+
+Knowledge should accumulate rather than disappear between sessions.
+
+---
+
+# Architectural Vision
+
+The framework is designed around one orchestration agent coordinating multiple specialized skills.
+
+Rather than asking one AI to solve every problem, engineering work is decomposed into specialized responsibilities.
+
+Examples include:
+
+* Architecture
+* Documentation
+* Review
+* Improvement
+* Performance
+* Security
+* Testing
+* RAG Analysis
+* Knowledge Management
+
+This mirrors the organization of mature software engineering teams.
+
+---
+
+# Documentation as a First-Class Artifact
+
+Every software project should maintain synchronized engineering artifacts.
+
+These include:
+
+* Architecture documentation
+* Draw.io diagrams
+* Technical debt reports
+* Roadmaps
+* ADRs
+* Project state
+* Performance reports
+* Security reports
+
+Documentation should never become obsolete.
+
+---
+
+# AI Memory
+
+Long-running projects require persistent engineering memory.
+
+The framework aims to preserve context through structured project artifacts rather than relying exclusively on language model context windows.
+
+Persistent knowledge enables:
+
+* better architectural decisions
+* lower context consumption
+* improved consistency
+* reproducible workflows
+
+---
+
+# Engineering Quality
+
+Every improvement should move the project toward:
+
+* lower coupling
+* higher cohesion
+* simpler architecture
+* better performance
+* stronger security
+* higher observability
+* improved maintainability
+* cleaner documentation
+
+Quality is measured continuously rather than periodically.
+
+---
+
+# Long-Term Goals
+
+The long-term evolution of the framework includes:
+
+* reusable engineering workflows
+* modular AI Skills
+* architectural orchestration
+* autonomous documentation
+* continuous architecture verification
+* RAG optimization
+* MCP ecosystem integration
+* engineering metrics
+* architectural governance
+* knowledge persistence
+* project evolution tracking
+
+Ultimately, the framework should become a reusable platform capable of supporting software projects from initial design through years of continuous evolution.
+
+---
+
+# Success Criteria
+
+The framework succeeds when:
+
+* AI understands systems before modifying them.
+* Documentation remains synchronized with implementation.
+* Architectural decisions are traceable.
+* Technical debt is continuously reduced.
+* Engineering quality improves over time.
+* Every iteration leaves the software in a healthier state.
+* Knowledge persists across development cycles.
+* Human engineers retain full visibility and control.
+
+---
+
+# Guiding Principle
+
+> **Software is more than source code.**
+
+Architecture, documentation, engineering knowledge, design decisions and continuous evolution are equally important components of a successful software system.
+
+The OpenCode AI Engineering Kit exists to ensure that Artificial Intelligence contributes to every one of these dimensions with the discipline, transparency and repeatability expected from world-class engineering teams.
