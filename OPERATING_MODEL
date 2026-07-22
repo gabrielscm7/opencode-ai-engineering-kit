@@ -1,0 +1,361 @@
+# OPERATING MODEL
+
+> **The operational model that governs how the OpenCode AI Engineering Kit makes decisions, executes work, and evolves software systems.**
+
+---
+
+# Purpose
+
+The OpenCode AI Engineering Kit is not a collection of prompts.
+
+It is an engineering operating system.
+
+Its purpose is to coordinate specialized AI components that work together through clearly defined responsibilities, shared artifacts, and continuous architectural governance.
+
+This document defines the operational rules that every Agent, Skill, MCP integration, and workflow must follow.
+
+---
+
+# Operational Philosophy
+
+The framework follows five fundamental principles:
+
+1. Strategy is separated from execution.
+2. Skills never make architectural decisions.
+3. All collaboration occurs through shared artifacts.
+4. Every execution updates the project's engineering knowledge.
+5. Architecture is continuously verified.
+
+---
+
+# Layers
+
+The framework is organized into five logical layers.
+
+```
+User
+    │
+    ▼
+Chief Architect
+    │
+    ▼
+Execution Planner
+    │
+    ▼
+Specialized Skills
+    │
+    ▼
+Engineering Artifacts
+```
+
+Each layer has a single responsibility.
+
+---
+
+# Layer 1 — User
+
+The user defines goals.
+
+Examples:
+
+* Improve performance
+* Fix a bug
+* Optimize the RAG
+* Add a new feature
+* Refactor authentication
+
+The user never defines implementation details.
+
+---
+
+# Layer 2 — Chief Architect
+
+The Chief Architect is the strategic decision maker.
+
+Responsibilities include:
+
+* understanding objectives
+* defining priorities
+* protecting architectural integrity
+* deciding when work is complete
+* selecting the appropriate execution strategy
+
+The Chief Architect does **not** modify source code.
+
+The Chief Architect does **not** produce diagrams.
+
+The Chief Architect does **not** implement features.
+
+Its role is coordination.
+
+---
+
+# Layer 3 — Execution Planner
+
+The Execution Planner transforms strategic objectives into executable engineering plans.
+
+Responsibilities include:
+
+* selecting Skills
+* defining execution order
+* identifying dependencies
+* estimating impact
+* validating prerequisites
+* coordinating execution loops
+
+The planner is responsible for orchestration.
+
+It never modifies project artifacts directly.
+
+---
+
+# Layer 4 — Specialized Skills
+
+Skills perform engineering work.
+
+Each Skill owns exactly one responsibility.
+
+Examples:
+
+* Architecture
+* Documentation
+* Improve
+* Review
+* Testing
+* Performance
+* Security
+* RAG Auditor
+* Knowledge Manager
+
+Skills should never duplicate responsibilities.
+
+Skills should never coordinate other Skills.
+
+Skills should never redefine project priorities.
+
+---
+
+# Layer 5 — Engineering Artifacts
+
+Artifacts represent the shared engineering knowledge of the project.
+
+Examples include:
+
+* architecture.md
+* roadmap.md
+* technical-debt.md
+* ADRs
+* project-state.yaml
+* Draw.io diagrams
+* performance reports
+* security reports
+
+Artifacts are the primary communication mechanism between Skills.
+
+No Skill should rely on hidden context from previous executions.
+
+---
+
+# Communication Model
+
+The framework follows an artifact-driven architecture.
+
+```
+Skill
+
+↓
+
+Engineering Artifact
+
+↓
+
+Next Skill
+```
+
+Skills never communicate directly.
+
+This guarantees loose coupling and reproducible workflows.
+
+---
+
+# Decision Model
+
+Only the Chief Architect may make architectural decisions.
+
+Execution Planner may sequence work.
+
+Skills may only execute work.
+
+Documentation reflects completed work.
+
+Review validates completed work.
+
+---
+
+# Execution Cycle
+
+Every engineering task follows the same lifecycle.
+
+```
+Understand
+
+↓
+
+Plan
+
+↓
+
+Analyze
+
+↓
+
+Execute
+
+↓
+
+Validate
+
+↓
+
+Document
+
+↓
+
+Review
+
+↓
+
+Persist Knowledge
+
+↓
+
+Finish
+```
+
+No phase may be skipped.
+
+---
+
+# Incremental Engineering
+
+Large modifications increase project risk.
+
+The framework therefore prefers:
+
+* small pull requests
+* isolated improvements
+* incremental refactoring
+* continuous verification
+* measurable progress
+
+Each execution should improve only one engineering concern whenever possible.
+
+---
+
+# Shared Knowledge
+
+Engineering knowledge must persist beyond individual AI conversations.
+
+Persistent knowledge includes:
+
+* architectural documentation
+* engineering decisions
+* project state
+* technical debt
+* diagrams
+* reports
+* roadmaps
+
+The framework should rely on persistent artifacts before relying on language model memory.
+
+---
+
+# Project State
+
+The current project state is represented by a structured artifact.
+
+This state includes:
+
+* current architecture version
+* current roadmap
+* pending improvements
+* completed work
+* active priorities
+* latest review
+* latest diagrams
+* engineering metrics
+
+The Project State becomes the operational memory of the framework.
+
+---
+
+# Continuous Documentation
+
+Documentation is generated continuously.
+
+There is no separate documentation phase.
+
+Every structural modification updates:
+
+* documentation
+* diagrams
+* architecture decisions
+* project state
+
+Documentation is treated as production code.
+
+---
+
+# Continuous Architecture
+
+Architecture is continuously inspected.
+
+Every execution should answer:
+
+* Does this reduce complexity?
+* Does this improve maintainability?
+* Does this reduce coupling?
+* Does this increase cohesion?
+* Does this preserve architectural consistency?
+
+If the answer is no, the execution should be reconsidered.
+
+---
+
+# Quality Gates
+
+Before work is considered complete, the following gates must pass:
+
+* Architecture Review
+* Documentation Updated
+* Project State Updated
+* Tests Passed
+* Draw.io Updated (when applicable)
+* ADR Updated (when applicable)
+
+Incomplete work is never considered finished.
+
+---
+
+# Extensibility
+
+New Skills should be added without modifying existing Skills.
+
+This is achieved through:
+
+* shared artifacts
+* standardized contracts
+* isolated responsibilities
+* orchestration through the Execution Planner
+
+The framework should remain open for extension and closed for modification.
+
+---
+
+# Guiding Rule
+
+Every execution must leave the project in a better engineering state than it was before.
+
+Improvement is measured not only by new functionality, but also by increased architectural quality, better documentation, reduced technical debt, and preserved engineering knowledge.
+
+The framework exists to ensure that AI contributes to the long-term evolution of software systems with consistency, transparency, and engineering discipline.
